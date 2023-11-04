@@ -43,9 +43,16 @@ function ValidaNome () {
     const NomeComoArray = NomeContato.value.split(' ');
 
     if(NomeComoArray.length < 2 ){
-        alert ('nome precisa ser completo')
+        
+        MensagemNome.style.display = 'block';
+        NomeContato.style.border = '1px solid red';
+
     } else {
+
+        MensagemNome.style.display = 'none';
+        NomeContato.style.border = '';
         ValidaNumero();
+
     }
 }
 
