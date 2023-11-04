@@ -5,8 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercicio projeto 2</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <i class="fa-solid fa-phone fa-beat"></i>
+            <h1>Agenda de Contatos</h1>
+        </header>
+        <form id="form-contato">
+            <input id="nome-contato" required type="text" placeholder="Nome do Contato">
+            <input id="numero-contato" required type="number" placeholder="Número do Telefone" >
+            <button type="submit" >Cadastrar</button>  
+        </form>
+        <p class="message" id="telefone">Precisa de 11 números com DDD!</p>
+        <p class="message" id="nome">O nome precisa ser completo</p>
+        <table cellspacing="0" >
+            <thead>
+                <tr>
+                    <th>
+                        Nome do Contato
+                    </th>
+                    <th>
+                        Número do telefone
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        kleber
+                    </td>
+                    <td>
+                        (19)989459989
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <script src="/main.js"></script>
 </body>
 </html>

@@ -1,0 +1,93 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header i {
+    font-size: 50px;
+}
+
+header h1 {
+    margin-left: 20px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    padding-top: 100px;
+    background-color: #e7e7e7;
+}
+
+form {
+    display: flex;
+}
+
+form button {
+    margin-left: 10px;
+    background-color: rgb(86, 250, 86);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form input {
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 24px;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid #000;
+}
+
+table {
+    width: 100%;
+    margin-top: 20px;
+}
+
+tbody tr  {
+    
+}
+
+tbody td {
+    font-size: 18px;
+    text-align: center;
+    padding: 8px 0 ;
+    border-bottom: 2px solid #adadad2d; 
+}
+
+table th{
+    border-bottom: 2px solid #000;
+    padding: 16px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.message {
+    display: none;
+    background-color:#e63636 ;
+    font-size: 18px;
+    color:#fff;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 50%;
+}
+
